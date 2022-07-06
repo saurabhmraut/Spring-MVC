@@ -1,0 +1,9 @@
+127.0.0.1 - - [06/Jul/2022:11:19:04 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [06/Jul/2022:11:19:06 +0530] "GET /simpleIntrest/ HTTP/1.1" 200 364
+0:0:0:0:0:0:0:1 - - [06/Jul/2022:11:19:13 +0530] "GET /simpleIntrest/cal?priciple=212&year=2&rate=2 HTTP/1.1" 500 3492
+127.0.0.1 - - [06/Jul/2022:11:20:16 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [06/Jul/2022:11:20:17 +0530] "GET /Login/ HTTP/1.1" 200 305
+0:0:0:0:0:0:0:1 - - [06/Jul/2022:11:20:32 +0530] "GET /Login/log?username=saruabh123&password=raut&gmail=saurabh%40gmail.com HTTP/1.1" 404 764
+127.0.0.1 - - [06/Jul/2022:11:21:26 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [06/Jul/2022:11:21:27 +0530] "GET /Login/ HTTP/1.1" 200 305
+0:0:0:0:0:0:0:1 - - [06/Jul/2022:11:21:38 +0530] "GET /Login/log?username=saruabh123&password=raut%24321&gmail=saurabh%40gmail.com HTTP/1.1" 404 764
